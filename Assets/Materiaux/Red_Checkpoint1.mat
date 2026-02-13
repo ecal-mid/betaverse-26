@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Red_Checkpoint1
+  m_Shader: {fileID: -6465566751694194690, guid: ee98ececb12ffa944a4ce266cb65d037, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NumberTex:
+        m_Texture: {fileID: 2800000, guid: ae479d9417b73e240ad2551e1fb569e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BorderWeight: 0.182
+    - _CircleSize: 0.777
+    - _DetailsAlphaWeight: 1.33
+    - _DetailsDensity: 4.39
+    - _DetailsSpeed: -0.25
+    - _DetailsWeight: 0.181
+    - _DistortionScale: 6.76
+    - _DistortionSpeed: 2
+    - _DistortionTiling: 3.37
+    - _FillStrength: 0.323
+    - _Float: 3.34
+    - _NumberAlpha: 0.2
+    - _NumberSize: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RadialScale: -0.38
+    - _XRMotionVectorsPass: 1
+    m_Colors:
+    - _BorderColor: {r: 1, g: 0.08962262, b: 0.08962262, a: 1}
+    - _DetailsColor: {r: 0.7735849, g: 0.11311854, b: 0.25639188, a: 1}
+    - _DisrtotionSpeed: {r: 0.05, g: 0, b: 0, a: 0}
+    - _FillColor: {r: 1, g: 0.3160377, b: 0.3160377, a: 1}
+    - _NumberColor: {r: 1, g: 0.5330188, b: 0.5330188, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &8818729958580827411
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
